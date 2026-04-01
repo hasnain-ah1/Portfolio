@@ -1,0 +1,198 @@
+body {
+    background-color: #030D18;
+
+}
+.line{
+    display: flex;
+    justify-content: center;
+}
+.title{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.subtitle{
+    color:gray;
+    padding-top: 150px;
+    font-size: 20px;
+}
+.name{
+    color:white;
+    font-size:80px;
+    font-family:'Times New Roman', Times, serif;
+}
+.selfglaze{
+    color:gray;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif    ;
+}
+.buttons{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.button1{
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+
+    padding: 12px 20px;
+    border: 1px solid #2a2f3a;
+    border-radius: 10px;
+
+    background: transparent;
+    color: #d1d5db;
+
+    font-size: 16px;
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+}
+.button1:hover{
+    color:#facc15;
+    border-color: #facc15;
+}
+.achievements{
+    display:flex;
+    justify-content:center;
+    gap: 90px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.stat{
+    text-align: center;
+}
+.stat h1 {
+    color:#facc15;
+    font-size:50px;
+}
+.stat p {
+    color:gray;
+    margin:5px 0 0 0;
+        font-size: 14px;
+}
+.about {
+    background-color: #141C2A;
+    padding: 120px 20px;
+    display: flex;
+    justify-content: center;
+}
+.about-container {
+    max-width: 800px;  
+}
+.about-tag {
+    color: #9ca3af;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.about-title {
+    color: white;
+    font-size: 42px;
+    margin-bottom: 25px;
+    line-height: 1.2;
+}
+.about-text {
+    color: #9ca3af;
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.expertise-section {
+  background-color:#030D18;
+  padding: 100px 40px;
+  color: white;
+}
+
+.expertise-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-header {
+  margin-bottom: 60px;
+}
+
+.expertise-label {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  color: #888888;
+  text-transform: uppercase;
+}
+
+.section-title {
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 10px;
+  line-height: 1.1;
+}
+
+.domains-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 40px 30px;
+}
+
+.domain-card {
+  background-color:#030D18;
+  padding: 32px 28px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  border-top: 4px solid #f5b800;
+}
+
+.domain-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+}
+
+.domain-card h3 {
+  font-size: 24px;
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+
+.domain-card p {
+  color: #bbbbbb;
+  font-size: 15.5px;
+  line-height: 1.75;
+}
+
+@media (max-width: 768px) {
+  .expertise-section {
+    padding: 80px 20px;
+  }
+  
+  .section-title {
+    font-size: 38px;
+  }
+  
+  .domains-grid {
+    gap: 30px 20px;
+  }
+}
+.connect-section{
+    display:flex;
+    justify-content:center;
+    gap: 90px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #141C2A;
+}
+.connect-tag{
+    color: gray;
+}
+.connect-title{
+    color: white;
+}
+.footer {
+    text-align: center;
+    color: #6b7280;
+    font-size: 14px;
+    padding: 30px 0;
+    background-color: #030D18;
+}
